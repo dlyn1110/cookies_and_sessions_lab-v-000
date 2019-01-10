@@ -1,12 +1,11 @@
 class ProductsController < ActionController::Base
 
   def index
-      cart = cart
-    end
+    cart = cart
+  end
 
     def add
-      #binding.pry
-      cart << params[:product]
+       cart << params[:product]
       redirect_to products_path
     end
 end
