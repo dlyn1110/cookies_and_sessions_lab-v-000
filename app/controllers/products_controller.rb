@@ -1,4 +1,4 @@
-class ProductController < ActionController::Base
+class ProductsController < ActionController::Base
 
   def index
   end
