@@ -1,7 +1,7 @@
 class ProductsController < ActionController::Base
 
   def index
-    
+     cary = cart
   end
 
     def add
