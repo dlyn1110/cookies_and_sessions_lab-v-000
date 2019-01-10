@@ -6,6 +6,6 @@ class ProductsController < ActionController::Base
 
     def add
        session[:cart] << params[:product]
-      render 'index'
+       render 'index'
     end
 end
