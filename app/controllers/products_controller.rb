@@ -6,6 +6,7 @@ class ProductsController < ActionController::Base
 
     def add
        cart << params[:product]
+       binding.pry
        render 'index'
     end
 end
